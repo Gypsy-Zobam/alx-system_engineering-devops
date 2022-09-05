@@ -1,2 +1,2 @@
 #!/bin/bash
-rmv(c c)
+tr -d [cC]
