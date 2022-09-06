@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$(/action "$0")"
+export PATH=$PATH:/action
