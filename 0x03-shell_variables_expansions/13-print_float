@@ -1,2 +1,2 @@
 #!/bin/bash
-echo with $((./13-print_float))
+echo $((./13-print_float))
