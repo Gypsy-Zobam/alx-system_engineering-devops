@@ -1,2 +1,2 @@
 #!/bin/bash
-echo with $((NUM))
+echo with $((./13-print_float))
