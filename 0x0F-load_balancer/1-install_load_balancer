@@ -16,8 +16,8 @@ frontend  ephraim-frontend
         default_backend ehoneah-backend
 backend ehoneah-backend
         balance roundrobin
-        server 73653-web-01 3.84.237.233:80 check
-        server 73653-web-02 54.210.87.75:80 check
+        server 129910-web-01 54.237.121.224:80 check
+        server 129910-web-02 54.210.248.77:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
